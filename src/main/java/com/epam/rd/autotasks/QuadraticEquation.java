@@ -17,7 +17,7 @@ public class QuadraticEquation {
         {
             double x1 = (-b + Math.sqrt(d)) / (2 * a);
             double x2 = (-b - Math.sqrt(d)) / (2 * a);
-            System.out.print(x1 + x2);
+            System.out.print(x1 + " " + x2);
         }
 
         else if (d == 0.0)
